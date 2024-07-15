@@ -1,2 +1,2 @@
-src/desktop/node_modules/*
-src/remote/node_modules/*
+src/*/node_modules/*
+node_modules/

@@ -1,0 +1,17 @@
+{
+  "name": "extension-monorepo",
+  "description": "Template for setting up a TypeScript monorepo",
+  "private": true,
+  "scripts": {
+    "clean": "pnpm run -r clean",
+    "build": "pnpm run -r build",
+    "test": "pnpm run -r test",
+    "lint": "eslint --ext js,ts,tsx ."
+  },
+  "devDependencies": {
+    "doctoc": "~2.2.0",
+    "eslint": "~8.57.0",
+    "eslint-plugin-import": "~2.29.0",
+    "typescript": "~4.9.0"
+  }
+}
