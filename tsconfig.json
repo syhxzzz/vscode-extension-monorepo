@@ -4,7 +4,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@syhx/common/*": ["src/common/*"]
+      // "@syhx/common/*": ["src/common/*"]
     },
     "noEmit": true
   }
