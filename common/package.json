@@ -1,0 +1,12 @@
+{
+  "name": "@syhx/components",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "pnpm run clean && pnpm run compile",
+    "compile": "tsc -p tsconfig.json",
+    "prepublishOnly": "pnpm run build"
+  },
+  "dependencies": {
+    "inversify": "^6.0.2"
+  }
+}

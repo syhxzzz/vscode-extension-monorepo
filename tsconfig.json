@@ -2,9 +2,11 @@
   "extends": "./tsconfig.build.json",
 
   "compilerOptions": {
+    "lib": ["ES2016", "DOM"],
     "baseUrl": ".",
     "paths": {
-      // "@syhx/common/*": ["src/common/*"]
+      "@syhx/common/*": ["common/*"],
+      "@platform/*": ["src/desktop/src/platform/*"]
     },
     "noEmit": true
   }
